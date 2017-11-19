@@ -1,0 +1,6 @@
+Во время тестов были найдены следующие баги:
+client.go: 85 typo: ofset -> offset
+client.go: 118 typo: Feld -> Field
+client.go: 78 typo: limit -> offset
+client.go: 42 typo: перепутан OrderByDesc и OrderByAsc
+client.go: 131 req.Limit-1, чтобы проверка имела смысл
